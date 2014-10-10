@@ -67,13 +67,6 @@ public class Picture
         tierra.changeSize(1000);
         tierra.makeVisible();
         
-         sun2 = new Circle();
-        sun2.changeColor("green");
-        sun2.moveHorizontal(-100);
-        sun2.moveVertical(-40);
-        sun2.changeSize(80);
-        sun2.makeVisible();
-        sun2.slowMoveVertical(135);
       
     }
 
