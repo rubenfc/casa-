@@ -67,7 +67,6 @@ public class Picture
         tierra.changeSize(1000);
         tierra.makeVisible();
         
-      
     }
 
     /**
@@ -89,6 +88,8 @@ public class Picture
      */
     public void setColor()
     {
+
+    
         if (wall != null)   // only if it's painted already...
         {
             wall.changeColor("red");
@@ -97,4 +98,22 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
+   /**
+     * Change movwy
+     */
+    public void slowMoveVertical()
+    {
+
+    
+        if (wall != null)   // only if it's painted already...
+        {
+            sun.slowMoveVertical(50);
+            
+        }
+    }
+
+
+   
+    
+
 }
