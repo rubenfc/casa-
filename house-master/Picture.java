@@ -68,6 +68,13 @@ public class Picture
         tierra.makeVisible();
         
         sun.slowMoveVertical(130);
+        
+        tierra.changeColor("black");
+        sun.changeColor("black");
+        roof.changeColor("black");
+        wall.changeColor("black");
+        window.changeColor("white");
+        
     }
 
     /**
