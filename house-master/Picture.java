@@ -67,6 +67,7 @@ public class Picture
         tierra.changeSize(1000);
         tierra.makeVisible();
         
+        sun.slowMoveVertical(130);
     }
 
     /**
@@ -101,7 +102,7 @@ public class Picture
    /**
      * Change movwy
      */
-    public void slowMoveVertical()
+    public void moveSun()
     {
 
     
