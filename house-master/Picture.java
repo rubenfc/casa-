@@ -17,6 +17,7 @@ public class Picture
     private Circle sun;
     private Circle sun2;
     private Circle tierra;
+    private Person persona;
     
 
     /**
@@ -38,6 +39,7 @@ public class Picture
         wall.changeSize(120);
         wall.makeVisible();
         
+        
         window = new Square();
         window.changeColor("black");
         window.moveHorizontal(-120);
@@ -52,7 +54,7 @@ public class Picture
         roof.makeVisible();
 
         sun = new Circle();
-        sun.changeColor("blue");
+        sun.changeColor("yellow");
         sun.moveHorizontal(100);
         sun.moveVertical(-40);
         sun.changeSize(80);
@@ -67,10 +69,15 @@ public class Picture
         tierra.changeSize(1000);
         tierra.makeVisible();
         
+        persona = new Person ();
+        persona.makeVisible();
+        persona.moveHorizontal(-200);
+        persona.slowMoveHorizontal(50);
+        
         sun.slowMoveVertical(130);
         
         tierra.changeColor("black");
-        sun.changeColor("black");
+        sun.changeColor("yellow");
         roof.changeColor("black");
         wall.changeColor("black");
         window.changeColor("white");
@@ -87,7 +94,7 @@ public class Picture
             wall.changeColor("black");
             window.changeColor("white");
             roof.changeColor("black");
-            sun.changeColor("black");
+            sun.changeColor("yblack");
         }
     }
 
