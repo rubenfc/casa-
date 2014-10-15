@@ -69,10 +69,8 @@ public class Picture
         tierra.changeSize(1000);
         tierra.makeVisible();
         
-        persona = new Person ();
-        persona.makeVisible();
-        persona.moveHorizontal(-200);
-        persona.slowMoveHorizontal(50);
+        
+        
         
         sun.slowMoveVertical(130);
         
@@ -113,7 +111,7 @@ public class Picture
             sun.changeColor("yellow");
         }
     }
-   /**
+    /**
      * Change movwy
      */
     public void moveSun()
@@ -124,11 +122,27 @@ public class Picture
         {
             sun.slowMoveVertical(50);
             
-        }
+        } 
+
     }
+    /**
+     * Change mover hombre
+     */
+    public void movePersona()
+    {
 
-
-   
+      
+        persona = new Person ();
+        persona.moveHorizontal(-200);
+        persona.makeVisible();
+        persona.slowMoveHorizontal(50);
+         
+        
     
+        
+   
 
+
+    
+    }
 }
