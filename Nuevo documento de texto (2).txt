@@ -1,0 +1,66 @@
+1 booleann sendWhatsapp(string mensaje, int numeroTelefono)
+
+
+--------------------------------------------------------------------------------------------------------------
+
+
+1 float average(int numero, int numeroDos)
+
+
+----------------------------------------------------------------------------------------------------------
+
+
+public class Pet
+
+{
+ 
+    private String name;
+
+                               
+{
+public Pet(String petName)
+name = petName;
+}
+}
+-------------------------------------------------------------------------------------
+{
+public Date(string mes, int dia, int anio)
+}
+
+------------------------------------------------------------------------------------------------------------
+ 
+public class Persona;
+{   private int edad;
+    
+    public Person()
+    
+    {
+    age = 0
+    }
+    
+    public int getEdad()
+   
+    {
+    return age
+    }
+}
+
+---------------------------------------------------------------
+
+class User 
+{
+   private int score;
+  
+   public User()
+   {
+   socore = 0;
+   }
+   
+  
+   {
+   public void  (int points)
+   }
+   
+   score = score +  points;
+   }
+}
